@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Olivchuk</title>
+
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+</head>
+<body>
+<table cellpadding="5">
+<tr>
+	<td><button id="clear" onclick="clear()">Очистити полотно</button></td>
+<td><input type="color" id="color"></td>
+
+
+	<td><div class="ol">
+	<p>Розмір Кисті</p>
+		<button  id="small" >Small</button>
+		<button id="normal"  >Normal</button>
+		<button id="large"  >Large</button>
+	</div></td>
+<td><input type="number" min=0 name="number"  id="size" placeholder="Size Shapes"></td>
+
+
+
+
+
+<td>
+<div class="figuru">
+		<button  id="circle" ><img src="circle.png" height="50px" width="50px"></button>
+		<button id="line"  ><img src="lini.png" height="50px" width="50px"></button>
+		<button id="kwa"  ><img src="kwa.png" height="50px" width="50px"></button>
+</div></td>
+  <td>
+      
+            <button  id="text">Text</button> 
+      
+      </td>
+
+         <td>
+            <select name="Font">
+            <option id="font" value="Verdana">Verdana</option>
+            <option id="font" value="Impact">Impact</option>
+            <option id="font" value="Cambria">Cambria</option>
+        </select>
+        </td>
+        <td>
+        	
+</tr>
+</table>
+<canvas id="cnv" width="1300px" height="600px" style="border: 10px double black;"></canvas>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
